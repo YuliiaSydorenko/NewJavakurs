@@ -25,7 +25,8 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        String text = "Тестовая строка для тестирования, где слово 'тест' встречается несколько раз: тест, тестовая, тестирование.";
+        String text = "Строка для проверки количества вхождений слов" +
+                ".\n Строка для проверки и теста. и количества слов для проверки";
         System.out.println(getWordFrequency(text));
     }
 
