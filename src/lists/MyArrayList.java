@@ -265,6 +265,10 @@ public class MyArrayList<T> implements MyList<T>, Iterable<T> {
         return new MyIterator();
     }
 
+    public char[] toCharArray() {
+        return null;
+    }
+
     private class MyIterator implements Iterator<T> {
 
         int currentIndex = 0;

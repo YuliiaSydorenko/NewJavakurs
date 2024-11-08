@@ -91,6 +91,9 @@ public class MapExample {
             // В качестве ключа допустимо использовать null
             map.put(null, "NullValue");
             System.out.println(map);
+
+
+
             System.out.println("++++++++++++++++++");
 
             System.out.println("---------------------------");
